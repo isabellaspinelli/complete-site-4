@@ -1,0 +1,286 @@
+body {
+    background-color: #bebffa;
+}
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: raleway;
+    src: url(fonts/Raleway-Bold.ttf);
+}
+
+h1 {
+    font-family: raleway ;
+    text-align: center;
+    line-height: 300px;
+
+}
+
+@font-face {
+    font-family: myFont;
+    src: url(Fonts/Raleway-Bold.ttf)
+}
+
+h3{
+    font-family: "myFont" ;
+    text-align: center;
+    letter-spacing: 0px;
+    color: rgb(87, 112, 250);
+
+}
+
+
+/** {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}*/
+
+
+h1 {
+    color: rgb(87, 112, 250); 
+    font-size: 75px;
+}
+
+strong {
+    font-weight: normal;
+}
+
+p {
+    color:blueviolet; 
+    /*background: #ddcbf5 ; */
+    font-weight: normal;
+    text-transform: none;
+    font-style: normal;
+    /* italic,norm*/ 
+    line-height: 20px;
+    text-decoration: none;
+    font-size: 12;
+}
+
+/*h2 {
+    color: darkviolet;
+}
+
+/*ul{
+    color: blueviolet;
+}
+
+body {
+    background: #edf1ff;
+}
+
+/*#intro {
+    color: darkblue;
+    background: #bebffa;
+    /*width: 300px ;
+    text-align: center;
+}*/
+
+.new-class {
+    font-size: 9 px;
+    background: #bebffa;
+}
+
+a { 
+    font-size: 30px;
+}
+
+/* a:visited {
+    color: blue ;
+}
+*/
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+/*#container {
+    background: rgb(179, 182, 255);
+    border-style: dotted;
+    border-color:  rgb(179, 223, 255);
+    border-width: 10px;
+   
+}*
+
+/*.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+}
+
+.item {
+    height: 100px;
+    border: 2px solid blueviolet;
+}
+
+
+p {
+    font-size: 20px;
+    margin-top:5px;
+    /* filter: blur(2px); 
+}
+*/
+
+
+
+ul{
+margin-left: 60px;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    /*float: left;*/
+    line-height: 100px;
+}
+
+ul li a {
+    display: block;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: Arial;
+    font-weight: bold;
+    color: rgb(87, 112, 250);
+    padding: 0 15px;
+}
+
+#title1 {
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+
+
+#para1 {
+    color:rgb(87, 112, 250);
+    border: 3px solid hotpink;
+    padding: 30px;
+    width: 400px;
+    height: 75px;
+    text-align: justify;
+    font-family: Arial;
+    font-size: 22px;
+    margin-left: 50px;
+   
+}
+
+#pintrest {
+    align-items: center;
+    margin-top: -140px;
+    margin-bottom: 40px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+#para2 {
+    color:rgb(87, 112, 250);
+    border: 3px solid hotpink;
+    padding: 40px;
+    width: 400px;
+    height: 75px;
+    width: 400px;
+    height: 75px;
+    margin-left: 475px;
+    text-align:justify;
+    font-family: Arial;
+    font-size: 22px;
+    margin-bottom: 60px;
+
+}
+
+.row {
+    display: flex;
+    padding: 8px;
+    margin-top: 60px;
+    margin-right: 0px ;
+    margin-bottom: 60px;
+    margin-left: 0px;
+  }
+
+  .row2 {
+    display: flex;
+    padding: 8px;
+    margin-top: 60px;
+    margin-right: 0px ;
+    margin-bottom: 80px;
+    margin-left: 0px;
+  }
+  
+  #para3 {
+    color:rgb(87, 112, 250);
+    border: 3px solid hotpink;
+    padding: 40px;
+    width: 400px;
+    height: 150px;
+    margin-left: 475px;
+    text-align:justify;
+    font-family: Arial;
+    font-size: 22px;
+}
+
+
+#code {
+    margin-left: 110px;
+}
+
+#infograph {
+    margin-top: 500px;
+    margin-left: 550px;
+}
+
+.container {
+    position: relative;
+    width: 50%;
+    display: flex;
+    
+  }
+  
+  .image {
+    display: flex;
+    width: 200px;
+    height: 400px;
+    height: auto;
+  margin-left: 600px;
+  margin-bottom: 30px;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 400px;
+    width: 200px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: hotpink;
+    margin-left: 600px;
+    margin-bottom: 30px;
+  }
+  
+  .container:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    text-align:center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
